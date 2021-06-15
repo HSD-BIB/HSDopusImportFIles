@@ -163,7 +163,7 @@
 			</collection>
 		</xsl:if>
 		<!-- Open-Access-Weg / Open-Access-Way -->
-		<xsl:if test="subject[contains(topic,'Gold')]">
+		<xsl:if test="subject/topic='Gold'">
 			<collection>
 				<xsl:attribute name="id">
 					<xsl:text>16273</xsl:text>
